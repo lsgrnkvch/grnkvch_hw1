@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # 1 задание
-
-# In[ ]:
-
 
 phrase_1 = input("Введите фразу 1: ")
 phrase_2 = input("Введите фразу 2: ")
@@ -18,9 +12,6 @@ else:
 
 # 2 задание
 
-# In[ ]:
-
-
 year = int(input("Введите год: "))
 if len(str(year)) != 4:
     print("Неверный формат")
@@ -31,9 +22,6 @@ else:
 
 
 # 3 задание
-
-# In[ ]:
-
 
 day_of_birth = int(input("Введите день: "))
 month_of_birth = input("Введите месяц в именительном падеже: ")
@@ -67,9 +55,6 @@ else:
 
 # 4 задание
 
-# In[ ]:
-
-
 width = int(input("Введите ширину в см: "))
 length = int(input("Введите длину в см: "))
 height = int(input("Введите высоту в см: "))
@@ -85,9 +70,6 @@ else:
 
 # 5 задание
 
-# In[ ]:
-
-
 number = str(input("Введите номер билета: "))
 sum1 = int(number[0]) + int(number[1]) + int(number[2])
 sum2 = int(number[3]) + int(number[4]) + int(number[5])
@@ -98,9 +80,6 @@ else:
 
 
 # 6 задание
-
-# In[ ]:
-
 
 type = input("Ведите тип фигуры: ")
 if type == 'Круг':
@@ -121,4 +100,3 @@ elif type == 'Прямоугольник':
     print('Площадь прямоугольника: ', square_rectangle)
 else:
     print("Упс! Я не знаю такие фигуры.")
-
